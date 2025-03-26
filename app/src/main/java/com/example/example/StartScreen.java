@@ -33,8 +33,8 @@ public class StartScreen extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        continueButton = (Button) findViewById(R.id.continueButton);
-        welcome = (TextView)  findViewById(R.id.welcomeText);
+        continueButton = (Button) findViewById(R.id.button2);
+        welcome = (TextView)  findViewById(R.id.textVieww);
         continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
